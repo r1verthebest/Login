@@ -25,16 +25,16 @@ public class BungeeMain extends Plugin {
         try {
             setupConfigs();
             if (!setupDatabase()) {
-                getLogger().severe("ßcFALHA CRÕTICA: N„o foi possÌvel conectar ao banco de dados. Desativando...");
+                getLogger().severe("¬ßcFALHA CR√çTICA: N√£o foi poss√≠vel conectar ao banco de dados. Desativando...");
                 return;
             }
             registerCommands();
             registerListeners();
             startCleanupTasks();
 
-            getLogger().info("ßaNeymarLogin v" + getDescription().getVersion() + " ativado com sucesso.");
+            getLogger().info("¬ßaLogin v" + getDescription().getVersion() + " ativado com sucesso.");
         } catch (Exception e) {
-            getLogger().log(Level.SEVERE, "Ocorreu um erro inesperado durante a inicializaÁ„o:", e);
+            getLogger().log(Level.SEVERE, "Ocorreu um erro inesperado durante a inicializa√ß√£o:", e);
         }
     }
 
@@ -89,11 +89,12 @@ public class BungeeMain extends Plugin {
             mysql.closeConnection();
         }
         getProxy().getScheduler().cancel(this);
-        getLogger().info("Login finalizado com seguranÁa.");
+        getLogger().info("Login finalizado com seguran√ßa.");
         instance = null;
     }
 
     public static BungeeMain getInstance() {
         return instance;
     }
+
 }
