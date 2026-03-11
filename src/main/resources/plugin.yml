@@ -1,0 +1,9 @@
+name: Login
+author: r1verthebest
+main: me.r1ver.login.bukkit.BukkitMain
+version: 1.0
+commands:
+  login: 
+    aliases: [logar]
+  register: 
+    aliases: [registrar]

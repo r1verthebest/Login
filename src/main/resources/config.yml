@@ -1,0 +1,12 @@
+# ----------------------------------------------------------
+# Configurações de Conexão com o Banco de Dados (MySQL)
+# ----------------------------------------------------------
+MySQL:
+  host: '127.0.0.1'
+  port: 3306
+  database: 'minecraft_auth'
+  user: 'root'
+  password: ''
+  options:
+    useSSL: false
+    autoReconnect: true

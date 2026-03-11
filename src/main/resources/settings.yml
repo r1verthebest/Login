@@ -1,0 +1,22 @@
+# ==========================================================
+#                 Login - Configurações
+# ==========================================================
+
+# Configurações de redirecionamento pós-autenticação.
+# Certifique-se de que os nomes dos servidores coincidem com o seu 'config.yml' do BungeeCord.
+redirection:
+  # Servidor para onde jogadores ORIGINAIS (Premium) serão enviados automaticamente.
+  server_premium: 'lobby'
+  
+  # Servidor para onde jogadores CRACKED (Piratas) serão enviados após o /login ou /register.
+  server_cracked: 'lobby'
+
+# Sistema de prevenção de fakes e segurança de infraestrutura.
+security:
+  # Limitar a quantidade de contas que podem ser criadas por um único endereço IP?
+  limit_accounts_per_ip: true
+  
+  # Quantidade máxima de contas permitidas por IP.
+  # (Recomendado: entre 2 e 5 para evitar bots de registro).
+  max_accounts: 5
+
