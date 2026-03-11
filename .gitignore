@@ -1,24 +1,30 @@
-# Compiled class file
+# Build e Binários
+/bin/
+/target/
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Logs e Temporários
+*.log
 hs_err_pid*
 replay_pid*
+.mtj.tmp/
+
+# Configurações do Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais (Não envie suas senhas do MySQL!)
+config.yml
